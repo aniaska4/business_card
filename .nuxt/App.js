@@ -7,14 +7,18 @@ import {
 } from './utils'
 
 import NuxtLoading from './components/nuxt-loading.vue'
+import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import '..\\assets\\css\\main.css'
 
 import _6f6c098b from '..\\layouts\\default.vue'
+import _3ca94266 from '..\\layouts\\partials\\Clear.vue'
 import _23093108 from '..\\layouts\\partials\\Nav.vue'
+import _71deb6c8 from '..\\layouts\\partials\\Product.vue'
 import _71b42e81 from '..\\layouts\\partials\\RedBox.vue'
+import _78539429 from '..\\layouts\\partials\\Values.vue'
 
-const layouts = { "_default": _6f6c098b,"_partials/Nav": _23093108,"_partials/RedBox": _71b42e81 }
+const layouts = { "_default": _6f6c098b,"_partials/Clear": _3ca94266,"_partials/Nav": _23093108,"_partials/Product": _71deb6c8,"_partials/RedBox": _71b42e81,"_partials/Values": _78539429 }
 
 export default {
   head: {"title":"business","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"My marvelous Nuxt.js project"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:400,700,700i,900&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Fuse.fontawesome.com\u002Freleases\u002Fv5.8.2\u002Fcss\u002Fall.css"}],"style":[],"script":[]},
@@ -51,7 +55,7 @@ export default {
       }
     }, [
       loadingEl,
-
+      h(NuxtBuildIndicator),
       transitionEl
     ])
   },
@@ -161,6 +165,10 @@ export default {
     },
 
     setLayout (layout) {
+      if(layout && typeof layout !== 'string') {
+        throw new Error('[nuxt] Avoid using non-string value as layout property.')
+      }
+
       if (!layout || !layouts['_' + layout]) {
         layout = 'default'
       }
