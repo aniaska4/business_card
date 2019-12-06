@@ -1,0 +1,99 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Roboto', sans-serif !important;
+    color: black !important;
+  }
+  .bm-overlay {
+    background: white !important;
+  }
+  .bm-menu {
+    background-color: #ffffffe3 !important;
+  }
+  .bm-cross {
+    background-color: #c32b27 !important;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .containerMain {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .fontMain {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .mainBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dotLine {
+    border-bottom: 1px dashed #c32b27;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+  .txt {
+    font-size: 5vw;
+    font-weight: bold;
+    display: flex;
+    padding: 0 15px 0 15px;
+  }
+  .empty {
+    height: 100px;
+  }
+  .bm-burger-button {
+    display: none;
+  }
+  .bm-menu {
+    background-color: #ffffffd6;
+  }
+  
+  @media all and (max-width: 1220px) {
+    .fontMain {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+  
+  @media all and (max-width: 1024px) {
+    .fontMain {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+  @media all and (max-width: 640px) {
+    .clear {
+      display: none;
+    }
+    .dotLine {
+      display: none;
+    }
+    .bm-burger-button {
+      display: block;
+      top: 27% !important;
+    }
+    .bm-burger-bars {
+      background-color: rgba(216, 80, 59, 1) !important;
+    }
+  }
+  @media all and (max-width: 420px) {
+    .txt {
+      font-size: 28px;
+    }
+    .empty {
+      height: 0;
+    }
+    .mainBox {
+      align-items: flex-start;
+    }
+  }
+  
