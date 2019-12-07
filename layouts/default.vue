@@ -5,6 +5,7 @@
     <RedBox />
     <Values />
     <Product />
+    <Team />
     <nuxt />
   </div>
 </template>
@@ -14,6 +15,7 @@ import Clear from './partials/Clear'
 import RedBox from './partials/RedBox'
 import Values from './partials/Values'
 import Product from './partials/Product'
+import Team from './partials/Team'
 export default {
   components: {
     Nav,
@@ -21,6 +23,7 @@ export default {
     RedBox,
     Values,
     Product,
+    Team
   }
 }
 </script>
