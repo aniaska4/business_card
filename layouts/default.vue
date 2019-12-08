@@ -7,6 +7,7 @@
     <Product />
     <Team />
     <Locations />
+    <Contact />
     <nuxt />
   </div>
 </template>
@@ -18,6 +19,7 @@ import Values from './partials/Values'
 import Product from './partials/Product'
 import Team from './partials/Team'
 import Locations from './partials/Locations'
+import Contact from './partials/Contact'
 export default {
   components: {
     Nav,
@@ -26,7 +28,8 @@ export default {
     Values,
     Product,
     Team,
-    Locations
+    Locations,
+    Contact
   }
 }
 </script>
