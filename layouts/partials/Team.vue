@@ -43,7 +43,7 @@ export default {
         },
         {
           img: '/images/leila.jpg',
-          name: 'Lila',
+          name: 'Leila',
           title: 'Founder & CORO',
           desc:
             'Credit risk and underwriting strategies, payments solutions. New business development.'

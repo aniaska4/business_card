@@ -7,7 +7,7 @@
                 .dotCircle
                   img(src="@/static/images/circle.svg")
                 .txt
-                    span.white We are company
+                    span.white Far far away
                     .clear1
                     span.sm The point of using Lorem Ipsum  
                     span.sm is that it has a more-or-less
