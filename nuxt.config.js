@@ -1,7 +1,7 @@
 
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
-    base: '/<bussiness_card>/'
+    base: '/<business_card>/'
   }
 } : {}
 
