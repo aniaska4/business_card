@@ -1,4 +1,10 @@
 
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/<bussiness_card>/'
+  }
+} : {}
+
 export default {
   mode: 'universal',
   /*
@@ -60,4 +66,5 @@ export default {
     extend (config, ctx) {
     }
   }
+  
 }
