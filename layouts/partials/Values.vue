@@ -84,7 +84,7 @@ export default {
   margin-top: 30px;
 }
 .picValues {
-  width: 370px;
+  width: 450px;
   margin-bottom: 60px;
 }
 .clear {

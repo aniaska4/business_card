@@ -37,6 +37,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~/plugins/vue-burger-menu.js', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -52,6 +53,7 @@ export default {
   ** Build configuration
   */
   build: {
+    vendor: ['vue-burger-menu'],
     /*
     ** You can extend webpack config here
     */

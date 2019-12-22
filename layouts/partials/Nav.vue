@@ -4,7 +4,7 @@
             nav.mainNav
                 .pic
                     a(href="/")
-                      img(src="@/static/images/logo.svg")
+                      img(src="@/static/images/logo.png")
                 .navigation
                     ul
                         li(v-for="(nav, index) in navs", :key="index" nuxt-link :to="nav.link") 
@@ -19,7 +19,7 @@
 <script>
 // import { Slide } from 'vue-burger-menu'
 export default {
-//   name: 'Nav',
+  name: 'Nav',
   components: {
     // Slide
   },
