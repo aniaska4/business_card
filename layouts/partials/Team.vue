@@ -28,42 +28,42 @@ export default {
     return {
       teams: [
         {
-          img: '/images/luke.jpg',
+          img: '@/images/luke.jpg',
           name: 'Luce Skaywalker',
           title: 'Founder & CEO',
           desc:
             'Growth strategy, finance, investors relations, product strategy.'
         },
         {
-          img: '/images/obi.jpg',
+          img: '@/images/obi.jpg',
           name: 'Obi Wan Kenobi',
           title: 'Founder & Managing Partner',
           desc:
             'Growth & strategic management, product strategy, investors relations.'
         },
         {
-          img: '/images/leila.jpg',
+          img: '@/images/leila.jpg',
           name: 'Leila',
           title: 'Founder & CORO',
           desc:
             'Credit risk and underwriting strategies, payments solutions. New business development.'
         },
         {
-          img: '/images/r2d2.jpg',
+          img: '@/images/r2d2.jpg',
           name: 'R2 D2',
           title: 'Founder & Managing Partner',
           desc:
             'Growth & strategic managment, product strategy, investors relations.'
         },
         {
-          img: '/images/yoda.jpg',
+          img: './images/yoda.jpg',
           name: 'Yoda',
           title: 'Founder & CORO',
           desc:
             'Credit risk and underwriting strategies, payments solutions. New business development.'
         },
           {
-          img: '/images/vader.jpg',
+          img: './images/vader.jpg',
           name: 'Lord Wader',
           title: 'Founder & Marketing Partner',
           desc:
