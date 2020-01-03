@@ -4,7 +4,7 @@
             nav.mainNav
                 .pic
                     a(href="/")
-                      img(src="@/images/logo.png")
+                      img(src="@/static/images/logo.png")
                 .navigation
                     ul
                         li(v-for="(nav, index) in navs", :key="index" nuxt-link :to="nav.link") 
