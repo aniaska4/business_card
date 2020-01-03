@@ -132,7 +132,7 @@ export async function setContext (app, context) {
 
       payload: context.payload,
       error: context.error,
-      base: '/',
+      base: '/business_card/',
       env: {}
     }
     // Only set once

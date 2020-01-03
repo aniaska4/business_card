@@ -1,12 +1,9 @@
 
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+export default {
+  mode: 'spa',
   router: {
     base: '/business_card/'
-  }
-} : {}
-
-export default {
-  mode: 'universal',
+  },
   /*
   ** Headers of the page
   */
