@@ -14,7 +14,7 @@
                 .countryImg
                     .country(v-for="country in countrys" :key="country.class")
                         .flag(:class="country.class" @mouseover="mouseover(country.boxClass)" @mouseleave="mouseleave")
-                            img(:src="country.img" )
+                            img(:src="'/business_card' + country.img" )
                 .countryInfo
                     .info
                         .boxCountry(:class="info.boxClass" :style='isVisible')

@@ -11,7 +11,7 @@
             .values
                 .picValues(v-for="value in values")
                     .img
-                        img(:src="value.img")
+                        img(:src="'/business_card' + value.img")
                     .titleValues2.fontMain
                         span {{value.title}}
                     .txtDescription
@@ -25,7 +25,7 @@ export default {
     return {
       values: [
         {
-          title: 'Lucas',
+          title: 'Luke',
           img: '/images/simplicity.svg',
           txt:
             'Lucas ipsum dolor sit amet darth antilles jabba dagobah yoda ponda hoth dantooine solo dooku.'

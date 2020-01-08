@@ -184,7 +184,7 @@ export default {
     width: 22%;
     margin-bottom: 5px;
     background-size: 30px 28px;
-    background-image: url('/images/circle_red.svg');
+    background-image: url('/business_card/images/circle_red.svg');
     background-repeat: no-repeat;
   }
 }
