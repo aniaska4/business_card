@@ -80,7 +80,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 79%;
+  width: 70%;
   margin-top: 30px;
 }
 .picValues {

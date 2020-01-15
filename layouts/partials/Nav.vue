@@ -4,7 +4,7 @@
             nav.mainNav
                 .pic
                     a(href="/")
-                      //- img(src="@/static/images/logo.png")
+                      
                 .navigation
                     ul
                         li(v-for="(nav, index) in navs", :key="index" nuxt-link :to="nav.link") 
@@ -48,9 +48,9 @@ export default {
   z-index: 1000;
 }
 
-.pic img {
-  width: 170px;
-  margin-right: 105px;
+.pic a{
+  background-image: url('/business_card/images/logo.png');
+  background-repeat: no-repeat;
 }
 .mainNav {
   width: 100%;
