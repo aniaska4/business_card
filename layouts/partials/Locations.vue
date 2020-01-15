@@ -10,7 +10,7 @@
                 .dotLine
             .imageMap
                 .img 
-                    img(src="@/static/images/map.svg")
+                    //- img(src="@/static/images/map.svg")
                 .countryImg
                     .country(v-for="country in countrys" :key="country.class")
                         .flag(:class="country.class" @mouseover="mouseover(country.boxClass)" @mouseleave="mouseleave")

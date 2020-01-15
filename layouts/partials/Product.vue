@@ -19,7 +19,7 @@
                   | Evanesco lumos aparecium lacarnum incantartem inflamarae.                     
               .clearBox
               .picHand
-                img(src="@/static/images/hand.svg")
+                //- img(src="@/static/images/hand.svg")
           .productPoint
             .zone
               .clearBox2
