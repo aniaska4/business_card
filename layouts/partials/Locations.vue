@@ -10,6 +10,7 @@
                 .dotLine
             .imageMap
                 .img
+                  img(src="/business_card/images/map.svg")
                 .countryImg
                     .country(v-for="country in countrys" :key="country.class")
                         .flag(:class="country.class" @mouseover="mouseover(country.boxClass)" @mouseleave="mouseleave")
@@ -134,13 +135,13 @@ export default {
   position: relative;
   margin-top: 30px;
 }
-/* .imageMap img {
+.imageMap img {
   width: 100%;
-} */
+}
 .img {
   width: 80%;
-  background-image: url('/business_card/images/map.svg');
-  background-repeat: no-repeat;
+  /* background-image: url('/business_card/images/map.svg');
+  background-repeat: no-repeat; */
 }
 .flag img {
   width: 5%;
