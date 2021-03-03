@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "gh-pages": "^2.1.1",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0"
   }
 }
