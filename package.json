@@ -14,7 +14,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "vue-burger-menu": "^2.0.3"
   },
   "devDependencies": {
